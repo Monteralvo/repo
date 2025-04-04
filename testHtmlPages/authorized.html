@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="styles.css">
+  <title>Авторизация</title>
+</head>
+<body>
+  <div class="background-main">
+    <img src="Alerk_theatre.jpg" alt="" class="background-main__image">
+  </div>
+  <div class="wrapper">
+    <h1 class="title">Авторизация</h1>
+    <h2 class="headline">Прикоснись к искусству</h2>
+    <form action="#check-user" method="post" class="main-form">
+      <fieldset class="main-form__group">
+        <label for="user_name" class="main-form__caption">Сценическое имя</label>
+        <input type="text" name="user_name" id="user_name" class="main-form__input">
+      </fieldset>
+      <fieldset class="main-form__group">
+        <label for="user_pass" class="main-form__caption">Кодовое слово</label>
+        <input type="text" name="user_pass" id="user_pass" class="main-form__input">
+      </fieldset>
+      <button type="submit" class="main-form__button">Войти</button>
+    </form>
+  </div>
+</body>
+</html>
